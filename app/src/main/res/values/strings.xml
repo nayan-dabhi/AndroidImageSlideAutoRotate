@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ImageSlideAutoRotate</string>
+
+    <string name="accordion">Accordion</string>
+    <string name="background_to_foreground">Background To Foreground</string>
+    <string name="cube_in">Cube In</string>
+    <string name="cube_out">Cube Out</string>
+    <string name="depth_page">Depth Page</string>
+    <string name="drawer">Drawer</string>
+    <string name="draw_from_back">Draw From Back</string>
+    <string name="flip_horizontal">Flip Horizontal</string>
+    <string name="flip_vertical">Flip Vertical</string>
+    <string name="foreground_to_backgroud">Forground To Backgroud</string>
+    <string name="rotate_down">Rotate Down</string>
+    <string name="rotate_up">Rotate Up</string>
+    <string name="scale_in_out">Scale In Out</string>
+    <string name="tablet">Tablet</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="zoom_out_page">Zoom Out Page</string>
+    <string name="zoom_out_slide">Zoom Out Slide</string>
+</resources>

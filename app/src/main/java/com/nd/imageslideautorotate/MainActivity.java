@@ -12,6 +12,7 @@ import com.nd.imageslideautorotate.Animation.AccordionTransformer;
 import com.nd.imageslideautorotate.Animation.BackgroundToForegroundTransformer;
 import com.nd.imageslideautorotate.Animation.CubeInTransformer;
 import com.nd.imageslideautorotate.Animation.CubeOutTransformer;
+import com.nd.imageslideautorotate.Animation.DefaultTransformer;
 import com.nd.imageslideautorotate.Animation.DepthPageTransformer;
 import com.nd.imageslideautorotate.Animation.DrawFromBackTransformer;
 import com.nd.imageslideautorotate.Animation.DrawerTransformer;
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         sliderAdapter = new SliderAdapter(this, images);
         viewPager.setAdapter(sliderAdapter);
-        viewPager.setPageTransformer(true, new DepthPageTransformer());
+        viewPager.setPageTransformer(true, new DefaultTransformer());
 
         ViewPagerScroller scroller = new ViewPagerScroller(viewPager.getContext());
         scroller.setViewPagerScrollSpeed(viewPager, 3000);
